@@ -42,8 +42,8 @@
   "dependencies": {
     "@parse/node-apn": "stage88/node-apn#release",
     "@parse/node-gcm": "stage88/node-gcm#release",
-    "npmlog": "7.0.1",
-    "parse": "4.1.0"
+    "npmlog": "4.1.2",
+    "parse": "3.4.0"
   },
   "engines": {
     "node": ">= 14"
