@@ -1,3 +1,64 @@
+## [5.0.2](https://github.com/parse-community/parse-server-push-adapter/compare/5.0.1...5.0.2) (2023-10-21)
+
+
+### Bug Fixes
+
+* Security upgrade semver-regex from 3.1.3 to 3.1.4 ([#210](https://github.com/parse-community/parse-server-push-adapter/issues/210)) ([089149b](https://github.com/parse-community/parse-server-push-adapter/commit/089149b70347200b7df37c280029f84c829d6798))
+
+## [5.0.1](https://github.com/parse-community/parse-server-push-adapter/compare/5.0.0...5.0.1) (2023-10-21)
+
+
+### Bug Fixes
+
+* Security upgrade qs from 6.5.2 to 6.5.3 ([#215](https://github.com/parse-community/parse-server-push-adapter/issues/215)) ([7fe2446](https://github.com/parse-community/parse-server-push-adapter/commit/7fe2446b1ec3c3bab06dc5302bc97deb1fb43fb2))
+
+# [5.0.0](https://github.com/parse-community/parse-server-push-adapter/compare/4.2.5...5.0.0) (2023-10-21)
+
+
+### Features
+
+* Upgrade to node-apn 6.0.1, parse 4.2.0 ([#227](https://github.com/parse-community/parse-server-push-adapter/issues/227)) ([615e730](https://github.com/parse-community/parse-server-push-adapter/commit/615e73012056c6702a9f7eb1ab9359f7f88b8efc))
+
+
+### BREAKING CHANGES
+
+* This release removes support for Node 12; the minimum required version is Node 14. ([615e730](615e730))
+
+## [4.2.5](https://github.com/parse-community/parse-server-push-adapter/compare/4.2.4...4.2.5) (2023-10-21)
+
+
+### Bug Fixes
+
+* Security upgrade json-schema and jsprim ([#226](https://github.com/parse-community/parse-server-push-adapter/issues/226)) ([83ca68f](https://github.com/parse-community/parse-server-push-adapter/commit/83ca68f028222a38cdcb7d8a7296509a1189b258))
+
+## [4.2.4](https://github.com/parse-community/parse-server-push-adapter/compare/4.2.3...4.2.4) (2023-10-21)
+
+
+### Bug Fixes
+
+* Security upgrade @babel/traverse from 7.17.3 to 7.23.2 ([#225](https://github.com/parse-community/parse-server-push-adapter/issues/225)) ([afdb28e](https://github.com/parse-community/parse-server-push-adapter/commit/afdb28e8d1eccc1b848612210804bd2fe6973622))
+
+## [4.2.3](https://github.com/parse-community/parse-server-push-adapter/compare/4.2.2...4.2.3) (2023-10-21)
+
+
+### Bug Fixes
+
+* Security upgrade decode-uri-component from 0.2.0 to 0.2.2 ([#214](https://github.com/parse-community/parse-server-push-adapter/issues/214)) ([16863c0](https://github.com/parse-community/parse-server-push-adapter/commit/16863c09f08fa346462711d906e6fbdc38721222))
+
+## [4.2.2](https://github.com/parse-community/parse-server-push-adapter/compare/4.2.1...4.2.2) (2023-10-21)
+
+
+### Bug Fixes
+
+* Security upgrade http-cache-semantics from 4.1.0 to 4.1.1 ([#216](https://github.com/parse-community/parse-server-push-adapter/issues/216)) ([ba48dd6](https://github.com/parse-community/parse-server-push-adapter/commit/ba48dd66741f136847ae93684dc2f0184ca9512f))
+
+## [4.2.1](https://github.com/parse-community/parse-server-push-adapter/compare/4.2.0...4.2.1) (2023-10-02)
+
+
+### Bug Fixes
+
+* Upgrade @parse/node-apn from 5.2.1 to 5.2.3 ([#221](https://github.com/parse-community/parse-server-push-adapter/issues/221)) ([7aaab38](https://github.com/parse-community/parse-server-push-adapter/commit/7aaab38b8c97215ea9e63f87fc627450646c714e))
+
 # [4.2.0](https://github.com/parse-community/parse-server-push-adapter/compare/4.1.3...4.2.0) (2023-08-06)
 
 

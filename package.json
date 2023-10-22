@@ -1,6 +1,6 @@
 {
   "name": "@parse/push-adapter",
-  "version": "5.1.0",
+  "version": "10.0.0",
   "description": "Base parse-server-push-adapter",
   "main": "lib/index.js",
   "files": [
@@ -9,7 +9,8 @@
   "scripts": {
     "build": "babel src/ -d lib/",
     "test": "TESTING=1 nyc --require @babel/register jasmine",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "update-deps": "rm -rf ./node_modules && rm -rf ./package-lock.json && ncu -u && npm install"
   },
   "keywords": [
     "parse-server",
@@ -24,26 +25,26 @@
   "license": "MIT",
   "devDependencies": {
     "@semantic-release/changelog": "6.0.3",
-    "@semantic-release/commit-analyzer": "9.0.2",
+    "@semantic-release/commit-analyzer": "11.0.0",
     "@semantic-release/git": "10.0.1",
-    "@semantic-release/github": "8.0.7",
-    "@semantic-release/npm": "10.0.3",
-    "@semantic-release/release-notes-generator": "11.0.1",
-    "@babel/cli": "7.21.5",
-    "@babel/core": "7.21.8",
-    "@babel/preset-env": "7.21.5",
-    "@babel/register": "7.21.0",
+    "@semantic-release/github": "9.2.1",
+    "@semantic-release/npm": "11.0.0",
+    "@semantic-release/release-notes-generator": "12.0.0",
+    "@babel/cli": "7.23.0",
+    "@babel/core": "7.23.2",
+    "@babel/preset-env": "7.23.2",
+    "@babel/register": "7.22.15",
     "codecov": "3.8.2",
-    "jasmine": "5.0.0",
+    "jasmine": "5.1.0",
     "jasmine-spec-reporter": "7.0.0",
     "nyc": "15.1.0",
-    "semantic-release": "21.0.2"
+    "semantic-release": "22.0.5"
   },
   "dependencies": {
     "@parse/node-apn": "stage88/node-apn#release",
     "@parse/node-gcm": "stage88/node-gcm#release",
-    "npmlog": "4.1.2",
-    "parse": "3.4.0"
+    "npmlog": "7.0.1",
+    "parse": "4.2.0"
   },
   "engines": {
     "node": ">= 14"
