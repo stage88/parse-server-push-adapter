@@ -1,6 +1,6 @@
 {
   "name": "@parse/push-adapter",
-  "version": "10.0.0",
+  "version": "10.1.0",
   "description": "Base parse-server-push-adapter",
   "main": "lib/index.js",
   "files": [
@@ -25,26 +25,26 @@
   "license": "MIT",
   "devDependencies": {
     "@semantic-release/changelog": "6.0.3",
-    "@semantic-release/commit-analyzer": "11.0.0",
+    "@semantic-release/commit-analyzer": "11.1.0",
     "@semantic-release/git": "10.0.1",
-    "@semantic-release/github": "9.2.1",
-    "@semantic-release/npm": "11.0.0",
-    "@semantic-release/release-notes-generator": "12.0.0",
+    "@semantic-release/github": "9.2.3",
+    "@semantic-release/npm": "11.0.1",
+    "@semantic-release/release-notes-generator": "12.1.0",
     "@babel/cli": "7.23.0",
-    "@babel/core": "7.23.2",
-    "@babel/preset-env": "7.23.2",
+    "@babel/core": "7.23.3",
+    "@babel/preset-env": "7.23.3",
     "@babel/register": "7.22.15",
     "codecov": "3.8.2",
     "jasmine": "5.1.0",
     "jasmine-spec-reporter": "7.0.0",
     "nyc": "15.1.0",
-    "semantic-release": "22.0.5"
+    "semantic-release": "22.0.8"
   },
   "dependencies": {
     "@parse/node-apn": "stage88/node-apn#release",
     "@parse/node-gcm": "stage88/node-gcm#release",
     "npmlog": "7.0.1",
-    "parse": "4.2.0"
+    "parse": "4.3.0"
   },
   "engines": {
     "node": ">= 14"
